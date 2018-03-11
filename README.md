@@ -1,11 +1,13 @@
 # CursoIonic3
 Ejercicios prácticos del curso de Ionic 3
 ## Day1
+Resumen básico de las tecnologías usadas por Ionic.
 - HTML
 - CSS / SASS
 - Javascript / Typescript
 - Node.js
 - Webpack
+Resumen básico del sistema de control de versiones git
 
 ## Day2
 ### Ejercicio1: 
