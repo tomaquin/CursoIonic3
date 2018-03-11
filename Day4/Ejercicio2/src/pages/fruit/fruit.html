@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>{{ fruit.name }}</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="openRightMenu()">
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header><h1>{{ fruit.name }}</h1></ion-card-header>
+    <ion-card-content>
+      <!--<ion-icon [name]="fruit.icon"></ion-icon>-->
+      <img class="image" src="assets/imgs/fruits/{{ fruit.image }}">
+      <p>{{ fruit.description }}</p>
+      <a class="link" target="_blank" [href]="fruit.link">More info</a>
+      <ion-row>
+        <voting></voting>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+

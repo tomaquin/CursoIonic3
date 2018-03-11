@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Recomendations</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div text-center padding [hidden]="!isRecomendationLoading">
+    <ion-spinner></ion-spinner>
+  </div>
+  <ion-list>
+    <button ion-item *ngFor="let recomendation of recomendations" (click)="itemTapped($event, recomendation)">
+      <h2>{{ recomendation.title }}</h2>
+      <p>{{ recomendation.content | limitText:'recomendation' }}</p>
+    </button>
+  </ion-list>
+</ion-content>

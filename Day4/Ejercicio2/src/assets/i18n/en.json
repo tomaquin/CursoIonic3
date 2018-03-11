@@ -1,0 +1,10 @@
+{
+  "Home": "Inicio",
+  "List Fruits": "Frutas",
+  "List Recomendations": "Recomendaciones",
+  "usingPipe": "Translated using the pipe!",
+  "usingDirective": "Using the translate directive!",
+  "usingComponent": "Using component",
+  "usingComponentParams": "Using component and params {{text}}",
+  "fruitCost": "The product cost"
+}
