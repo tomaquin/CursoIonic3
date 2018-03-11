@@ -1,0 +1,70 @@
+<!--lo hemos traido del home -->
+<ion-card padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-3>
+        <!--<img class="images" src="assets/imgs/fruits/{{ appleImage }}">-->
+        <!-- OTRA FORMA <img class="images" [src]="'assets/imgs/fruits/' + appleImage"> -->
+        <img class="images" [src]="'assets/imgs/fruits/' + fruit.image">
+      </ion-col>
+      <ion-col>
+        <!-- <h1>{{ appleName }}</h1> -->
+        <h1>{{ fruit.name }}</h1>
+        <!-- <p margin-top margin-bottom>{{ appleDesc }}</p> -->
+        <p margin-top margin-bottom>{{ fruit.description }}</p>
+        <!-- <a target="_blank" href="{{ appleLink }}">More info</a> -->
+        <!-- DATA BINDING  aqui abajo -->
+        <!-- <a target="_blank" [href]="appleLink">More info</a> -->
+        <a target="_blank" [href]="fruit.link" *ngIf="fruit.link">More info</a>
+        <!-- OTRA FORMA <a target="_blank" [href]="fruit.link" [hidden]="!fruit.link">More info</a>-->
+      </ion-col>
+      <ion-col col-2>
+        <!--<button ion-button icon-only color="danger" (click)="deleteFruit(fruit.name)">-->
+        <button ion-button icon-only color="danger" (click)="deletePressed()">
+          <ion-icon name="trash"></ion-icon>
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-card>
+<!-- al crear un bucle para mostrar las cards no necesitaremos las demás
+  <ion-card padding>
+    <ion-grid>
+      <ion-row>
+        <ion-col col-3>
+          <img class="images" src="assets/imgs/fruits/lemon.png">
+        </ion-col>
+        <ion-col>
+          <h1>Lemon</h1>
+          <p margin-top margin-bottom>The usually round red, green, or yellow fruit of a small tree of the rose family.</p>
+          <a target="_blank" href="https://www.wikipedia.org/wiki/Apple">More info</a>
+        </ion-col>
+        <ion-col col-2>
+          <button ion-button icon-only color="danger">
+            <ion-icon name="trash"></ion-icon>
+          </button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>
+
+  <ion-card padding>
+    <ion-grid>
+      <ion-row>
+        <ion-col col-3>
+          <img class="images" src="assets/imgs/fruits/orange.png">
+        </ion-col>
+        <ion-col>
+          <h1>Orange</h1>
+          <p margin-top margin-bottom>The usually round red, green, or yellow fruit of a small tree of the rose family.</p>
+          <a target="_blank" href="https://www.wikipedia.org/wiki/Apple">More info</a>
+        </ion-col>
+        <ion-col col-2>
+          <button ion-button icon-only color="danger">
+            <ion-icon name="trash"></ion-icon>
+          </button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>
+-->

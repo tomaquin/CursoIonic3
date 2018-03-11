@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <!-- añadimos componente -->
+  <expandable-content *ngFor="let fruit of fruits; let i = index"
+              [fruit]="fruit"></expandable-content>
+</ion-content>
