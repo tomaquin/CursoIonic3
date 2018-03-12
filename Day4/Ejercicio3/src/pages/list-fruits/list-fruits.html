@@ -1,0 +1,25 @@
+<!--
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle right>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Fruits</ion-title>
+  </ion-navbar>
+</ion-header>
+-->
+<ion-header>
+  <common-navbar></common-navbar>
+</ion-header>
+
+<ion-content>
+  <div text-center padding [hidden]="!isFruitLoading">
+    <ion-spinner></ion-spinner>
+  </div>
+  <ion-list>
+    <button ion-item *ngFor="let fruit of fruits" (click)="itemTapped($event, fruit)">
+      <h2>{{ fruit.name }}</h2>
+      <p>{{ fruit.description | limitText:'fruit' }}</p>
+    </button>
+  </ion-list>
+</ion-content>

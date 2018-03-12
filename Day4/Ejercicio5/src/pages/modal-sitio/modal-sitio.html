@@ -1,0 +1,20 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>¿Dónde estoy?</ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="cerrarModal()">
+        <ion-icon name="md-close"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <p>Te encuentras en: <br/>
+    Latitud: {{ coords.lat }}<br/>
+    Longitud: {{ coords.lng }}<p>
+</ion-content>
