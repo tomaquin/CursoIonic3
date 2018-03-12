@@ -26,10 +26,10 @@ Proyecto tipo SIDEMENU, proveedores de servicios, traducción de cadenas, spinne
 ### Ejercicio2: 
 Proyecto tipo SIDEMENU en la parte derecha, proveedores de servicios, traducción de cadenas, spinners de carga, creación de componente NavBar.
 ### Ejercicio3:
-Proyecto tipo SIDEMENU en la parte derecha, proveedores de servicios http rest, traducción de cadenas, spinners de carga, creación de componente NavBar.
+Proyecto tipo SIDEMENU en la parte derecha, proveedores de servicios http api rest, traducción de cadenas, spinners de carga, creación de componente NavBar.
 ### Ejercicio4:
 Proyecto tipo BLANK con instalación y uso del plugin de cámara de cordova.
 ### Ejercicio5:
 Proyecto tipo BLANK con instalación y uso del plugin geolocalización de cordova y librería de Google Maps e implementación de componente Modal.
 ### Ejercicio6:
-Proyecto tipo TABS con instalación y uso del plugin geolocalización de cordova y librería de Google Maps e implementación de componente Modal y uso del plugin de cámara de cordova.
+Proyecto tipo TABS con instalación y uso de los plugins: geolocalización, camera y sqlite de cordova; librería de Google Maps e implementación de componente Modal y uso de formularios.
