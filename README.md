@@ -7,7 +7,7 @@ Resumen básico de las tecnologías usadas por Ionic.
 - Javascript / Typescript
 - Node.js
 - Webpack
-Resumen básico del sistema de control de versiones git
+- Sistema de control de versiones git
 
 ## Day2
 ### Ejercicio1: 
@@ -24,3 +24,9 @@ Proyecto tipo SIDEMENU, navegación entre páginas, spinner de carga, listados d
 Proyecto tipo SIDEMENU, proveedores de servicios, traducción de cadenas, spinners de carga.
 ### Ejercicio2: 
 Proyecto tipo SIDEMENU en la parte derecha, proveedores de servicios, traducción de cadenas, spinners de carga, creación de componente NavBar.
+### Ejercicio3:
+Proyecto tipo SIDEMENU en la parte derecha, proveedores de servicios http rest, traducción de cadenas, spinners de carga, creación de componente NavBar.
+### Ejercicio4:
+Proyecto tipo SIDEMENU con instalación y uso del plugin de cámara de cordova.
+### Ejercicio5:
+Proyecto tipo SIDEMENU con instalación y uso del plugin geolocalización de cordova y librería de Google Maps e implementación de componente Modal.
