@@ -32,3 +32,7 @@ Proyecto tipo SIDEMENU con instalación y uso del plugin camara.
 Proyecto tipo SIDEMENU con instalación y uso del plugin geolocalización y librería de Google Maps e implementación de componente Modal.
 ### Ejercicio6:
 Proyecto tipo TABS con instalación y uso de los plugins: geolocalización, camera y sqlite de cordova; librería de Google Maps e implementación de componente Modal y uso de formularios.
+
+## Day5
+### GeneralApp:
+Proyecto tipo BLANK, proveedores de servicios HTTP REST, formularios. 
