@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title><translate>fruitsList</translate></ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div text-center padding [hidden]="pageState !== PageState.Loading">
+    <ion-spinner></ion-spinner>
+  </div>
+  <div text-center [hidden]="pageState !== PageState.LoadingError">
+    <p><translate>fruitsListError</translate></p>
+    <button ion-button (click)="loadFruitsList()"><translate>retry</translate></button>
+  </div>
+  <ion-list>
+    <ion-item *ngFor="let fruit of fruits" (click)="itemTapped($event, fruit)">
+      <h2>{{ fruit.name }}</h2>
+      <p>{{ fruit.description }}</p>
+    </ion-item>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,14 @@
+{
+  "apptitle": "General APP",
+  "clicktogo": "Click to see list page",
+  "list": "List",
+  "fruitsList": "Fruit List",
+  "fruitsListError": "Error loading fruits list",
+  "edit": "Edit",
+  "errorloading": "Error loading the fruit",
+  "name": "Name",
+  "image": "Image",
+  "description": "Description",
+  "link": "Link",
+  "save": "Save"
+}
